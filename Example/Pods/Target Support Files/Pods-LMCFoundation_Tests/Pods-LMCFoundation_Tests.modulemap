@@ -1,0 +1,6 @@
+framework module Pods_LMCFoundation_Tests {
+  umbrella header "Pods-LMCFoundation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
