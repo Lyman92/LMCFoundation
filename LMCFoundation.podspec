@@ -30,7 +30,7 @@ Focus on Foundation layer.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LMCFoundation/Classes/**/*'
+  s.source_files = 'LMCFoundation/Classes/**/*', 'LMCFoundation/Classes/*'
   
   # s.resource_bundles = {
   #   'LMCFoundation' => ['LMCFoundation/Assets/*.png']
