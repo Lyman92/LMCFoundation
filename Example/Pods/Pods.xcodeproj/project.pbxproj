@@ -110,8 +110,6 @@
 		9FA92269C76E56CD70FB8C0AB47AD16D /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB12CB75DBCCF19D7FBBC490B896872 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FB558C12CC98F95A448699D80E54CA /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A97ECCDEE7F27973198D2C2C88107A /* SwiftSupport.swift */; };
 		A6A49734BE2CA7A10109D9A0F6E79AAA /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = F919EF3503C402CC5F7A4C3DB6193377 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A769D6E223C472F10071F33D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A769D6DE23C472F10071F33D /* .gitkeep */; };
-		A769D6E423C472F10071F33D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A769D6E123C472F10071F33D /* .gitkeep */; };
 		A769D6EB23C475070071F33D /* CategoryHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = A769D6E823C475070071F33D /* CategoryHeaders.h */; };
 		A769D6EC23C475070071F33D /* UIView+lmclibs.h in Headers */ = {isa = PBXBuildFile; fileRef = A769D6E923C475070071F33D /* UIView+lmclibs.h */; };
 		A769D6ED23C475070071F33D /* UIView+lmclibs.m in Sources */ = {isa = PBXBuildFile; fileRef = A769D6EA23C475070071F33D /* UIView+lmclibs.m */; };
@@ -351,13 +349,12 @@
 		A3C73181D48F5D49BFBC3B5208B523E0 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		A451DEF5999CC5C98081C756B470E0CF /* Pods_LMCFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMCFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B40F329CDB9DBF9F7A5F9AD018E7A9 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		A769D6DE23C472F10071F33D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		A769D6E123C472F10071F33D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		A769D6E823C475070071F33D /* CategoryHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryHeaders.h; sourceTree = "<group>"; };
 		A769D6E923C475070071F33D /* UIView+lmclibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+lmclibs.h"; sourceTree = "<group>"; };
 		A769D6EA23C475070071F33D /* UIView+lmclibs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+lmclibs.m"; sourceTree = "<group>"; };
 		A78D4AE223C5877E0024F017 /* NSData+lmclibs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+lmclibs.m"; sourceTree = "<group>"; };
 		A78D4AE323C5877E0024F017 /* NSData+lmclibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+lmclibs.h"; sourceTree = "<group>"; };
+		A7E2DF5823C5CF640059E3BE /* LMCFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMCFoundation.h; sourceTree = "<group>"; };
 		A9E443D16383B9054536310A1492AAAD /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		AA338444DCD0D8A79D43225B2DDB8A87 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		AA9343B793221E6999DDA57064D65101 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
@@ -775,7 +772,7 @@
 				A769D6E723C474B10071F33D /* Categories */,
 				A769D6E623C474020071F33D /* Network */,
 				A769D6E523C473E40071F33D /* UI */,
-				A769D6DE23C472F10071F33D /* .gitkeep */,
+				A7E2DF5823C5CF640059E3BE /* LMCFoundation.h */,
 			);
 			name = Classes;
 			path = LMCFoundation/Classes;
@@ -784,7 +781,6 @@
 		A769D6E023C472F10071F33D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				A769D6E123C472F10071F33D /* .gitkeep */,
 			);
 			name = Assets;
 			path = LMCFoundation/Assets;
@@ -1248,8 +1244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A769D6E223C472F10071F33D /* .gitkeep in Resources */,
-				A769D6E423C472F10071F33D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
