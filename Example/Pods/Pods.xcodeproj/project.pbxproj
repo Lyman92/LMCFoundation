@@ -115,6 +115,8 @@
 		A769D6ED23C475070071F33D /* UIView+lmclibs.m in Sources */ = {isa = PBXBuildFile; fileRef = A769D6EA23C475070071F33D /* UIView+lmclibs.m */; };
 		A78D4AE423C5877E0024F017 /* NSData+lmclibs.m in Sources */ = {isa = PBXBuildFile; fileRef = A78D4AE223C5877E0024F017 /* NSData+lmclibs.m */; };
 		A78D4AE523C5877E0024F017 /* NSData+lmclibs.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D4AE323C5877E0024F017 /* NSData+lmclibs.h */; };
+		A7EBBA3C23C5E5D3007FBB83 /* NSString+lmclibs.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EBBA3A23C5E5D3007FBB83 /* NSString+lmclibs.h */; };
+		A7EBBA3D23C5E5D3007FBB83 /* NSString+lmclibs.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EBBA3B23C5E5D3007FBB83 /* NSString+lmclibs.m */; };
 		A9C123746408B4505BDA4AF41D7566DD /* Pods-LMCFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C58436BFCE5BC267E11B5B8B3E1990F9 /* Pods-LMCFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4825F999D0804E1F8AD53546928C3B /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6AF4D3D219D27D80E07B80E444AA50 /* Pods-LMCFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 081AB825E3954637214CFABEA462B096 /* Pods-LMCFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -355,6 +357,8 @@
 		A78D4AE223C5877E0024F017 /* NSData+lmclibs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+lmclibs.m"; sourceTree = "<group>"; };
 		A78D4AE323C5877E0024F017 /* NSData+lmclibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+lmclibs.h"; sourceTree = "<group>"; };
 		A7E2DF5823C5CF640059E3BE /* LMCFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMCFoundation.h; sourceTree = "<group>"; };
+		A7EBBA3A23C5E5D3007FBB83 /* NSString+lmclibs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+lmclibs.h"; sourceTree = "<group>"; };
+		A7EBBA3B23C5E5D3007FBB83 /* NSString+lmclibs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+lmclibs.m"; sourceTree = "<group>"; };
 		A9E443D16383B9054536310A1492AAAD /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		AA338444DCD0D8A79D43225B2DDB8A87 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		AA9343B793221E6999DDA57064D65101 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
@@ -808,6 +812,8 @@
 				A769D6EA23C475070071F33D /* UIView+lmclibs.m */,
 				A78D4AE323C5877E0024F017 /* NSData+lmclibs.h */,
 				A78D4AE223C5877E0024F017 /* NSData+lmclibs.m */,
+				A7EBBA3A23C5E5D3007FBB83 /* NSString+lmclibs.h */,
+				A7EBBA3B23C5E5D3007FBB83 /* NSString+lmclibs.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -956,6 +962,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A78D4AE523C5877E0024F017 /* NSData+lmclibs.h in Headers */,
+				A7EBBA3C23C5E5D3007FBB83 /* NSString+lmclibs.h in Headers */,
 				7A5C2BD6FE957CE69DF2325CDB9C45D9 /* LMCFoundation-umbrella.h in Headers */,
 				A769D6EB23C475070071F33D /* CategoryHeaders.h in Headers */,
 				A769D6EC23C475070071F33D /* UIView+lmclibs.h in Headers */,
@@ -1264,6 +1271,7 @@
 			files = (
 				A78D4AE423C5877E0024F017 /* NSData+lmclibs.m in Sources */,
 				39D2DE3FB2426C4D2DFD191CFFE1636F /* LMCFoundation-dummy.m in Sources */,
+				A7EBBA3D23C5E5D3007FBB83 /* NSString+lmclibs.m in Sources */,
 				A769D6ED23C475070071F33D /* UIView+lmclibs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
