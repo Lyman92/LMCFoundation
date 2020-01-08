@@ -769,10 +769,10 @@
 		A769D6DD23C472F10071F33D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A7E2DF5823C5CF640059E3BE /* LMCFoundation.h */,
 				A769D6E723C474B10071F33D /* Categories */,
 				A769D6E623C474020071F33D /* Network */,
 				A769D6E523C473E40071F33D /* UI */,
-				A7E2DF5823C5CF640059E3BE /* LMCFoundation.h */,
 			);
 			name = Classes;
 			path = LMCFoundation/Classes;
