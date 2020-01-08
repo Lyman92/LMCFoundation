@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Focus on Foundation layer.
                        DESC
 
-  s.homepage         = 'https://github.com/Lyman/LMCFoundation'
+  s.homepage         = 'https://github.com/Lyman92/LMCFoundation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lyman' => 'm18396531029@163.com' }
-  s.source           = { :git => 'https://github.com/Lyman/LMCFoundation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Lyman92/LMCFoundation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
