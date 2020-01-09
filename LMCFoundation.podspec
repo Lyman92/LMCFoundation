@@ -30,7 +30,7 @@ Focus on Foundation layer.
 
   s.ios.deployment_target = '8.0'
 
-#  s.source_files = 'LMCFoundation/Classes/**/*'
+  s.source_files = 'LMCFoundation/Classes/*'
   
   s.subspec 'LMCCategories' do |categories|
      categories.source_files = 'LMCFoundation/Classes/LMCCategories/**/*', 'LMCFoundation/Classes/LMCCategories/*'
