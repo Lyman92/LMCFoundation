@@ -12,5 +12,6 @@
 #import "UIView+lmclibs.h"
 #import "NSData+lmclibs.h"
 #import "NSString+lmclibs.h"
+#import "NSURL+lmclibs.h"
 
 #endif /* CategoryHeaders_h */
