@@ -9,5 +9,5 @@
 @import UIKit;
 
 @interface LMCViewController : UIViewController
-
+@property (copy, nonatomic) NSString *p1;
 @end

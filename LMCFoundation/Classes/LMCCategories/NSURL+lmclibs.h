@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString*)queryStringFromDict: (NSDictionary <NSString*, NSString*>*)queryDict;
 
++ (NSString*)queryStringFromObject: (NSObject*)obj;
+
 @end
 
 NS_ASSUME_NONNULL_END

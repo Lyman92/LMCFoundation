@@ -7,6 +7,7 @@
 //
 
 #import "LMCViewController.h"
+#import <LMCFoundation/LMCFoundation.h>
 
 @interface LMCViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *queryStr = [NSURL queryStringFromObject:self];
+    if(queryStr){
+        NSLog(@"aaaaaaaaaa");
+    }
 }
 
 - (void)didReceiveMemoryWarning

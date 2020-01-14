@@ -1,9 +1,9 @@
 {
   "name": "LMCFoundation",
-  "version": "0.1.0",
-  "summary": "A short description of LMCFoundation.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Lyman/LMCFoundation",
+  "version": "0.1.1",
+  "summary": "LMCFoundation.",
+  "description": "Focus on Foundation layer.",
+  "homepage": "https://github.com/Lyman92/LMCFoundation",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,20 @@
     "Lyman": "m18396531029@163.com"
   },
   "source": {
-    "git": "https://github.com/Lyman/LMCFoundation.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Lyman92/LMCFoundation.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LMCFoundation/Classes/**/*"
+  "source_files": "LMCFoundation/Classes/*",
+  "subspecs": [
+    {
+      "name": "LMCCategories",
+      "source_files": [
+        "LMCFoundation/Classes/LMCCategories/**/*",
+        "LMCFoundation/Classes/LMCCategories/*"
+      ]
+    }
+  ]
 }
