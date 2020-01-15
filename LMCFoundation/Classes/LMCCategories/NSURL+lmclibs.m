@@ -42,5 +42,22 @@
     }
     return urlComponents.query;
 }
+@end
+
+
+@implementation NSURLComponents (lmclibs)
+
+- (NSDictionary *)queryItemAsDict {
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    NSArray<NSURLQueryItem *> *arrQueryItem = self.queryItems;
+    for (NSURLQueryItem *item in arrQueryItem) {
+        [dict setValue:item.value forKey:item.name];
+    }
+    return dict;
+}
+
+- (void)setQueryItemAsDict:(NSDictionary *)queryItemAsDict {
+    self.queryItemAsDict = queryItemAsDict;
+}
 
 @end
