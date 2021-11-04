@@ -11,12 +11,15 @@
 
 @implementation NSURL (lmclibs)
 
-+ (NSString*)queryStringFromDict: (NSDictionary <NSString*, NSString*>*)queryDict {
++ (NSString*)queryStringFromDict: (NSDictionary <NSString*, id>*)queryDict {
     NSURLComponents *urlComponents = [NSURLComponents new];
     NSMutableArray *arrURLCompnent = [NSMutableArray array];
     if (queryDict) {
         for (NSString* key in queryDict.allKeys) {
-            NSURLQueryItem *item = [NSURLQueryItem queryItemWithName:key value:queryDict[key]];
+            id value = queryDict[key];
+            
+            
+            NSURLQueryItem *item = [NSURLQueryItem queryItemWithName:key value:];
             [arrURLCompnent addObject: item];
         }
     }
